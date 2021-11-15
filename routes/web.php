@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/users', 'App\Http\Controllers\UserController@index');
+
+Route::post('/login', 'App\Http\Controllers\LoginController@login');
